@@ -11,15 +11,15 @@ export default function Footer() {
           <Separator orientation="vertical" className="hidden h-4! sm:block" />
           <p className="text-muted-foreground text-sm">
             Made with 🤍 by{' '}
-            <a href="https://github.com/kumardeo" className="text-foreground" target="_blank" rel="noopener">
-              Deo Kumar
+            <a href="/" className="text-foreground" target="_blank" rel="noopener">
+              NVMH
             </a>
             !
           </p>
         </div>
         <ul className="flex flex-wrap gap-2">
           <li>
-            <a href="https://github.com/kumardeo" aria-label="GitHub" title="GitHub" className={buttonVariants({ variant: 'outline', size: 'icon' })}>
+            <a href="/" aria-label="GitHub" title="GitHub" className={buttonVariants({ variant: 'outline', size: 'icon' })}>
               <GithubIcon className="size-4" />
             </a>
           </li>
